@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  HotWordLandIOSNetWorkDemo
+//
+//  Created by Ronaldinho on 14/12/30.
+//  Copyright (c) 2014年 HotWordLand. All rights reserved.
+//
+
+#ifndef HotWordLandIOSNetWorkDemo_PrefixHeader_pch
+#define HotWordLandIOSNetWorkDemo_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "DefineUrl.h"
+#import "MKNetworkEngine.h"
+#import "NetEngine.h"
+
+#endif
